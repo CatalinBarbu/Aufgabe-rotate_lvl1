@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.rotate {
+  width: 200px;
+  height: 200px;
+  margin: 10vh auto;
+  background-color: darkorange;
+  border-radius: 20px;
+  transition-duration: 3500ms;
+  transform-origin: bottom right;
+}
+.rotate:hover {
+  transform: rotate(180deg) scale(1.8, 1.8);
+}
